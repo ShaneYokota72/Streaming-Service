@@ -168,7 +168,7 @@ CID_T StreamService::suggestBestSimilarContent(CID_T contentID) const
           return -1;
         }
         for(int i=0; i<contentssum.size(); i++){
-            cout << contentssum.at(i) << endl;
+            // cout << contentssum.at(i) << endl;
         }
         // calculate the frequency, and determine which one to suggest
         for(unsigned int i=0; i<contentssum.size(); i++){
